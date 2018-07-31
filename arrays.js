@@ -25,14 +25,27 @@ function accessElementInArray(array, index) {
 }
 //GOOD ABOVE
 
+<<<<<<< HEAD
 function destructivelyRemoveElementFromBeginningOfArray(array) {
   array.shift(1);
   return array;
+=======
+
+
+function destructivelyRemoveElementFromBeginningOfArray(array) {
+  return array.slice(1);
+>>>>>>> b9bf53ac7d9e3809b97fa63318861802f6f3424d
 }
 //GOOD ABOVE
 
 function removeElementFromBeginningOfArray(array) {
+<<<<<<< HEAD
  return array.slice(1);
+=======
+  array.pop();
+  return array;
+  
+>>>>>>> b9bf53ac7d9e3809b97fa63318861802f6f3424d
 }
 //GOOD ABOVE
 
